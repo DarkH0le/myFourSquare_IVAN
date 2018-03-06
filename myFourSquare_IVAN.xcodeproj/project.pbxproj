@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D05B97B2692686B623FEF67 /* libPods-myFourSquare_IVAN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AD8970FA233CD7FAF5FA1C /* libPods-myFourSquare_IVAN.a */; };
+		E4089D61203CF7BE004D3DC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D60203CF7BE004D3DC0 /* AppDelegate.swift */; };
+		E4089D63203CF7BE004D3DC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D62203CF7BE004D3DC0 /* ViewController.swift */; };
+		E4089D66203CF7BE004D3DC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4089D64203CF7BE004D3DC0 /* Main.storyboard */; };
+		E4089D68203CF7BE004D3DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4089D67203CF7BE004D3DC0 /* Assets.xcassets */; };
+		E4089D6B203CF7BE004D3DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4089D69203CF7BE004D3DC0 /* LaunchScreen.storyboard */; };
+		E4089D73203CF82B004D3DC0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D72203CF82B004D3DC0 /* LoginController.swift */; };
+		E4089D75203CF88F004D3DC0 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D74203CF88F004D3DC0 /* MapController.swift */; };
+		E4089D77203CF8B2004D3DC0 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D76203CF8B2004D3DC0 /* PostController.swift */; };
+		E4089D79203CF8CB004D3DC0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D78203CF8CB004D3DC0 /* User.swift */; };
+		E4089D7B203CF921004D3DC0 /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D7A203CF921004D3DC0 /* Date+extension.swift */; };
+		E4089D7D203CF95C004D3DC0 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4089D7C203CF95C004D3DC0 /* UIColor+extension.swift */; };
+		E40E5F7A204EE3B50070A024 /* CustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E5F79204EE3B50070A024 /* CustomMarker.swift */; };
+		E40E5F84204EFBD50070A024 /* uganda2.png in Resources */ = {isa = PBXBuildFile; fileRef = E40E5F83204EFBD50070A024 /* uganda2.png */; };
+		E43ABF7A2045DBD000445A8B /* PlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43ABF792045DBD000445A8B /* PlaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38AD8970FA233CD7FAF5FA1C /* libPods-myFourSquare_IVAN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myFourSquare_IVAN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3AABD9DDA1CED936B4FF42 /* Pods-myFourSquare_IVAN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFourSquare_IVAN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myFourSquare_IVAN/Pods-myFourSquare_IVAN.debug.xcconfig"; sourceTree = "<group>"; };
+		E4089D5D203CF7BE004D3DC0 /* myFourSquare_IVAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFourSquare_IVAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4089D60203CF7BE004D3DC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4089D62203CF7BE004D3DC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4089D65203CF7BE004D3DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4089D67203CF7BE004D3DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4089D6A203CF7BE004D3DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4089D6C203CF7BE004D3DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4089D72203CF82B004D3DC0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E4089D74203CF88F004D3DC0 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		E4089D76203CF8B2004D3DC0 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		E4089D78203CF8CB004D3DC0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E4089D7A203CF921004D3DC0 /* Date+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		E4089D7C203CF95C004D3DC0 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		E40E5F79204EE3B50070A024 /* CustomMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarker.swift; sourceTree = "<group>"; };
+		E40E5F83204EFBD50070A024 /* uganda2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uganda2.png; sourceTree = "<group>"; };
+		E43ABF792045DBD000445A8B /* PlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceController.swift; sourceTree = "<group>"; };
+		F3D5AD955B75105B7C49B484 /* Pods-myFourSquare_IVAN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myFourSquare_IVAN.release.xcconfig"; path = "Pods/Target Support Files/Pods-myFourSquare_IVAN/Pods-myFourSquare_IVAN.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4089D5A203CF7BE004D3DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D05B97B2692686B623FEF67 /* libPods-myFourSquare_IVAN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E93CB5CC6661941067980A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE3AABD9DDA1CED936B4FF42 /* Pods-myFourSquare_IVAN.debug.xcconfig */,
+				F3D5AD955B75105B7C49B484 /* Pods-myFourSquare_IVAN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFDAE276F93D725884597846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38AD8970FA233CD7FAF5FA1C /* libPods-myFourSquare_IVAN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4089D54203CF7BE004D3DC0 = {
+			isa = PBXGroup;
+			children = (
+				E4089D5F203CF7BE004D3DC0 /* myFourSquare_IVAN */,
+				E4089D5E203CF7BE004D3DC0 /* Products */,
+				37E93CB5CC6661941067980A /* Pods */,
+				AFDAE276F93D725884597846 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4089D5E203CF7BE004D3DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4089D5D203CF7BE004D3DC0 /* myFourSquare_IVAN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4089D5F203CF7BE004D3DC0 /* myFourSquare_IVAN */ = {
+			isa = PBXGroup;
+			children = (
+				E40E5F83204EFBD50070A024 /* uganda2.png */,
+				E4089D78203CF8CB004D3DC0 /* User.swift */,
+				E4089D60203CF7BE004D3DC0 /* AppDelegate.swift */,
+				E4089D62203CF7BE004D3DC0 /* ViewController.swift */,
+				E4089D64203CF7BE004D3DC0 /* Main.storyboard */,
+				E4089D67203CF7BE004D3DC0 /* Assets.xcassets */,
+				E4089D69203CF7BE004D3DC0 /* LaunchScreen.storyboard */,
+				E4089D6C203CF7BE004D3DC0 /* Info.plist */,
+				E4089D72203CF82B004D3DC0 /* LoginController.swift */,
+				E4089D74203CF88F004D3DC0 /* MapController.swift */,
+				E4089D76203CF8B2004D3DC0 /* PostController.swift */,
+				E4089D7A203CF921004D3DC0 /* Date+extension.swift */,
+				E4089D7C203CF95C004D3DC0 /* UIColor+extension.swift */,
+				E43ABF792045DBD000445A8B /* PlaceController.swift */,
+				E40E5F79204EE3B50070A024 /* CustomMarker.swift */,
+			);
+			path = myFourSquare_IVAN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4089D5C203CF7BE004D3DC0 /* myFourSquare_IVAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4089D6F203CF7BE004D3DC0 /* Build configuration list for PBXNativeTarget "myFourSquare_IVAN" */;
+			buildPhases = (
+				F9BD9868E40AEB28C7ED09BE /* [CP] Check Pods Manifest.lock */,
+				E4089D59203CF7BE004D3DC0 /* Sources */,
+				E4089D5A203CF7BE004D3DC0 /* Frameworks */,
+				E4089D5B203CF7BE004D3DC0 /* Resources */,
+				11851E03897FE170A23F26D3 /* [CP] Embed Pods Frameworks */,
+				F1041DCE8D00A712960CD32C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myFourSquare_IVAN;
+			productName = myFourSquare_IVAN;
+			productReference = E4089D5D203CF7BE004D3DC0 /* myFourSquare_IVAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4089D55203CF7BE004D3DC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ivan Aldama";
+				TargetAttributes = {
+					E4089D5C203CF7BE004D3DC0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4089D58203CF7BE004D3DC0 /* Build configuration list for PBXProject "myFourSquare_IVAN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4089D54203CF7BE004D3DC0;
+			productRefGroup = E4089D5E203CF7BE004D3DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4089D5C203CF7BE004D3DC0 /* myFourSquare_IVAN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4089D5B203CF7BE004D3DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E5F84204EFBD50070A024 /* uganda2.png in Resources */,
+				E4089D6B203CF7BE004D3DC0 /* LaunchScreen.storyboard in Resources */,
+				E4089D68203CF7BE004D3DC0 /* Assets.xcassets in Resources */,
+				E4089D66203CF7BE004D3DC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11851E03897FE170A23F26D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFourSquare_IVAN/Pods-myFourSquare_IVAN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1041DCE8D00A712960CD32C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myFourSquare_IVAN/Pods-myFourSquare_IVAN-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myFourSquare_IVAN/Pods-myFourSquare_IVAN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BD9868E40AEB28C7ED09BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myFourSquare_IVAN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4089D59203CF7BE004D3DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4089D77203CF8B2004D3DC0 /* PostController.swift in Sources */,
+				E43ABF7A2045DBD000445A8B /* PlaceController.swift in Sources */,
+				E40E5F7A204EE3B50070A024 /* CustomMarker.swift in Sources */,
+				E4089D75203CF88F004D3DC0 /* MapController.swift in Sources */,
+				E4089D79203CF8CB004D3DC0 /* User.swift in Sources */,
+				E4089D63203CF7BE004D3DC0 /* ViewController.swift in Sources */,
+				E4089D73203CF82B004D3DC0 /* LoginController.swift in Sources */,
+				E4089D61203CF7BE004D3DC0 /* AppDelegate.swift in Sources */,
+				E4089D7B203CF921004D3DC0 /* Date+extension.swift in Sources */,
+				E4089D7D203CF95C004D3DC0 /* UIColor+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4089D64203CF7BE004D3DC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4089D65203CF7BE004D3DC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4089D69203CF7BE004D3DC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4089D6A203CF7BE004D3DC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4089D6D203CF7BE004D3DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4089D6E203CF7BE004D3DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4089D70203CF7BE004D3DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3AABD9DDA1CED936B4FF42 /* Pods-myFourSquare_IVAN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J26DXF285Q;
+				INFOPLIST_FILE = myFourSquare_IVAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IDS.myFourSquare-IVAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4089D71203CF7BE004D3DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D5AD955B75105B7C49B484 /* Pods-myFourSquare_IVAN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J26DXF285Q;
+				INFOPLIST_FILE = myFourSquare_IVAN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IDS.myFourSquare-IVAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4089D58203CF7BE004D3DC0 /* Build configuration list for PBXProject "myFourSquare_IVAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4089D6D203CF7BE004D3DC0 /* Debug */,
+				E4089D6E203CF7BE004D3DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4089D6F203CF7BE004D3DC0 /* Build configuration list for PBXNativeTarget "myFourSquare_IVAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4089D70203CF7BE004D3DC0 /* Debug */,
+				E4089D71203CF7BE004D3DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4089D55203CF7BE004D3DC0 /* Project object */;
+}

@@ -13,7 +13,7 @@ Learn how to use Google Maps SDK
 
 ## Installing
 - Make sure you have these installed Google Maps SDK for iOS is available as a CocoaPods pod.
-Create a Podfile for the Google Maps SDK for iOS and use it to install the API and its dependencies:
+- Create a **Podfile** for the Google Maps SDK for iOS and use it to install the API and its dependencies:
 
 - If you don't have an Xcode project yet, create one now and save it to your local machine. (If you're new to iOS development, create a Single View Application.)
 Create a file named Podfile in your project directory. This file defines your project's dependencies.
